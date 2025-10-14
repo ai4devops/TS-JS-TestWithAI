@@ -14,6 +14,16 @@ Ensuite, installez les dépendances nécessaires :
 npm install
 ```
 
+### Comment exécuter les tests :
+
+1. Lancez les tests avec :
+
+```bash
+npm test
+```
+
+2. Assurez-vous que tous les tests passent avant de passer à la suite.
+
 ## Objectif
 Le but de cet exercice est de découvrir comment utiliser les outils d'IA pour vous assister dans la pratique du test driven development.
 
@@ -34,14 +44,17 @@ Pour la première partie de cette exercise, nous allons rédiger des fonctions p
 - **Implémentez la méthode `formatDate(LocalDate date)`** :
    - Il faudra partir du test `testFormatDate_ValidDate` déjà rédigé dans `utils.test`
    - Cette méthode doit accepter un objet `Date` et retourner un `String` au format `yyyy-mm-dd`.
+   - Utilisez le chat IA pour générer le code
 
 - **Implémentez la méthode `parseDate(String date)`** :
    - Il faudra partir du test `testParseDate_ValidDate` déjà rédigé dans `utils.test`
    - Cette méthode doit accepter un `String` au format `yyyy-mm-dd` et retourner un objet `Date`.
+   - Réalisez cette exercice en utilisant la sélection de code du chat IA
 
 - **Implémentez la méthode `formatDateWithPattern(LocalDate date, String pattern)`** :
    - Il faudra partir du test `testFormatDate_WithPattern` déjà rédigé dans `utils.test`
    - Cette méthode doit accepter un objet `Date` et un `String` qui contiendra le pattern de la date attendu, ex : 'yyyy-mm-dd' et retourner un `String` avec la date au format attendu.
+   - Réalisez cet exercice en utilisant le copiant votre test dans le chat IA
 
 
 ### 2. Rédaction de tests unitaires par description (20 minutes)
@@ -51,6 +64,7 @@ Sur cette deuxième partie de l'exercice, nous allons nous attaquer aux object `
    - Ce test échouera bien sûr car la fonction appelée n'est pas encore implémentée
    - Une fois le test rédigé, vous pouvez vous attaquer à la rédaction de fonction `formatDateTime(Date dateTime)`
    - Assurez vous que le test que vous avez rédigé passe maintenant
+   - Utilisez l'auto-complétion par commentaire pour réaliser cette exercice
 
 - **Pour la fonction `parseDateTime(String dateTimeString)`** :
    - Rédigez un premier test `testParseDateTime_ValidDateTime` qui vérifiera que pour une `String` donnée, au format yyyy-MM-ddThh:mm:ss,  la fonction `parseDateTime` retourne bien un objet `Date`, _ex : "2024-08-31T08:46:00"_
@@ -58,24 +72,15 @@ Sur cette deuxième partie de l'exercice, nous allons nous attaquer aux object `
    - Ces tests échoueront bien sûr car la fonction appelée n'est pas encore implémentée
    - Une fois les tests rédigés, vous pouvez vous attaquer à la rédaction de fonction `parseDateTime(String dateTimeString)`
    - Assurez vous que les tests que vous avez rédigés passent maintenant
+   - Utiliser le inline code pour réaliser cet exercice (ctrl + l)
 
 ### 3. Rédaction de tests unitaires par code (20 minutes)
 Sur cette dernière parties de l'exercice, nous allons nous attaquer au bloc Testing, qui va vous permettre d'écrire des tests unitaire en fonction d'un code donné
 - **Pour la fonction `formatDateTime(Date dateTime, String pattern)`** :
    - Rédigez des tests unitaire dans `testFormatDateTime_WithPattern` qui vérifiera que pour une `Date` donnée et un pattern choisi, la fonction `formatDateTime` retourne bien une chaine de caractère au format donnée, _ex : avec dd/MM/yyyy HH:mm:ss on a "31/08/2024 08:46:00"_
    - Le code vous est fourni, à vous de générer les tests grâce à l'aide de l'IA
+   - Réalisez cette exercice en utilisant les raccourcis Copilot (click droit > copilot)
    
-
-
-### Comment exécuter les tests :
-
-1. Lancez les tests avec :
-
-```bash
-npm test
-```
-
-2. Assurez-vous que tous les tests passent avant de soumettre votre solution.
 
 ### Critères de validation :
 
