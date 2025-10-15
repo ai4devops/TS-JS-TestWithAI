@@ -57,7 +57,7 @@ Pour la première partie de cette exercise, nous allons rédiger des fonctions p
    - Réalisez cet exercice en utilisant le copiant votre test dans le chat IA
 
 
-### 2. Rédaction de tests unitaires par description (20 minutes)
+### 2. Rédaction de tests unitaires par description (15 minutes)
 Sur cette deuxième partie de l'exercice, nous allons nous attaquer aux object `Date`. Cette fois-ci, il faudra rédiger des tests qui dicteront le comportement des fonctions, puis enchainer avec la rédaction de la fonction.
 - **Pour la fonction `formatDateTime(Date dateTime)`** :
    - Rédigez un premier test `testFormatDateTime_ValidDateTime` qui vérifiera que pour une `Date` donnée, la fonction `formatDateTime` retourne bien une chaine de caractère, _ex : "2024-08-31T08:46:00"_
@@ -74,7 +74,7 @@ Sur cette deuxième partie de l'exercice, nous allons nous attaquer aux object `
    - Assurez vous que les tests que vous avez rédigés passent maintenant
    - Utiliser le inline code pour réaliser cet exercice (ctrl + l)
 
-### 3. Rédaction de tests unitaires par code (20 minutes)
+### 3. Rédaction de tests unitaires par code (10 minutes)
 Sur cette dernière parties de l'exercice, nous allons nous attaquer au bloc Testing, qui va vous permettre d'écrire des tests unitaire en fonction d'un code donné
 - **Pour la fonction `formatDateTime(Date dateTime, String pattern)`** :
    - Rédigez des tests unitaire dans `testFormatDateTime_WithPattern` qui vérifiera que pour une `Date` donnée et un pattern choisi, la fonction `formatDateTime` retourne bien une chaine de caractère au format donnée, _ex : avec dd/MM/yyyy HH:mm:ss on a "31/08/2024 08:46:00"_
