@@ -54,7 +54,7 @@ Pour la première partie de cette exercise, nous allons rédiger des fonctions p
 - **Implémentez la méthode `formatDateWithPattern(LocalDate date, String pattern)`** :
    - Il faudra partir du test `testFormatDate_WithPattern` déjà rédigé dans `utils.test`
    - Cette méthode doit accepter un objet `Date` et un `String` qui contiendra le pattern de la date attendu, ex : 'yyyy-mm-dd' et retourner un `String` avec la date au format attendu.
-   - Réalisez cet exercice en utilisant le copiant votre test dans le chat IA
+   - Réalisez cet exercice en copiant votre test dans le chat IA
 
 
 ### 2. Rédaction de tests unitaires par description (15 minutes)
@@ -79,7 +79,7 @@ Sur cette dernière parties de l'exercice, nous allons nous attaquer au bloc Tes
 - **Pour la fonction `formatDateTime(Date dateTime, String pattern)`** :
    - Rédigez des tests unitaire dans `testFormatDateTime_WithPattern` qui vérifiera que pour une `Date` donnée et un pattern choisi, la fonction `formatDateTime` retourne bien une chaine de caractère au format donnée, _ex : avec dd/MM/yyyy HH:mm:ss on a "31/08/2024 08:46:00"_
    - Le code vous est fourni, à vous de générer les tests grâce à l'aide de l'IA
-   - Réalisez cette exercice en utilisant les raccourcis Copilot (click droit > copilot)
+   - Réalisez cette exercice en utilisant les raccourcis Copilot (click droit > copilot) ou via les commandes du chat (/tests)
    
 
 ### Critères de validation :
